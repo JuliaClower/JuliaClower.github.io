@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+    background: lightblue; 
+    margin: 0; 
+    padding: 0;  
+}
+
+nav {
+    background: black;
+    padding: 30px; 
+}
+
+nav a {
+    text-decoration: none;
+    background: black;
+    font-size: 18px;
+    color: teal; 
+    font-family: 'Vollkorn SC', serif;
+}
+
+.wrapper {
+    display: flex; 
+    flex-direction: column; 
+}
+
+.content {
+    display: flex;
+
+}
+.main {
+    flex: 1;
+}
+
+
+h1 {
+    font-family: 'Vollkorn SC', serif;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+}
+
+aside {
+    width: 30%;
+}
+
+footer {
+    width: 100%;
+}
