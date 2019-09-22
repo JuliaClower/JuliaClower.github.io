@@ -10,6 +10,11 @@ body {
     background-size: 100%; 
 }
 
+.homepage {
+    background-image: none; 
+    background-color: whitesmoke;
+}
+
 nav {
     background: black;
     padding: 30px; 
@@ -53,11 +58,31 @@ nav a {
     padding-right: 40px; 
 }
 
+.content-homepage {
+    text-align: center; 
+    margin-top: 40px; 
+}
+
+.content-homepage .main img {
+    height: 300px; 
+}
+
 h1 {
     font-family: 'Vollkorn SC', serif;
     margin-bottom: 100px; 
 }
 
+.content-homepage .main h1 {
+    margin-bottom: 20px; 
+}
+
+.border-button {
+    outline: solid 5px teal;
+    transition: outline 0.6s linear;
+    margin: 0.5em; 
+  }
+  
+  .border-button:hover { outline-width: 10px; }
 
 p {
     font-family: 'Roboto', sans-serif;
