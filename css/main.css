@@ -55,7 +55,7 @@ nav a {
 .main {
     flex: 1;
     margin: 20px 80px; 
-    padding-right: 40px; 
+    padding-right:; 
 }
 
 .content-homepage {
@@ -70,6 +70,11 @@ nav a {
 h1 {
     font-family: 'Vollkorn SC', serif;
     margin-bottom: 100px; 
+}
+
+h2 {
+    font-family: 'Vollkorn SC', serif; 
+    margin-top: 20px; 
 }
 
 .content-homepage .main h1 {
