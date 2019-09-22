@@ -33,6 +33,20 @@ nav a {
     width: 200px; 
 }
 
+    a:link {
+    color: teal; 
+}
+
+a:visited {
+    color: teal; 
+}
+
+a:hover {
+    color: teal;
+    text-decoration: overline underline;  
+}
+
+
 .nav-right { 
     display: flex; 
     background-color: black; 
@@ -40,6 +54,8 @@ nav a {
     align-items: center;  
     width: 100%; 
 }
+
+
 
 .wrapper {
     display: flex; 
