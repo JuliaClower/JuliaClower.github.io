@@ -78,7 +78,6 @@ a:hover {
 .main {
     flex: 1;
     margin: 20px 80px; 
-    padding-right:; 
 }
 
 .content-homepage {
@@ -117,16 +116,38 @@ p {
     font-family: 'Roboto', sans-serif;
 } 
 
+.contactLinks {
+    display: flex; 
+    align-items: center; 
+    justify-content: space-evenly
+}
+
+.githubicon {
+    text-align: center;     
+}
+
 .contactLinks a {
     font-family: 'Roboto', sans-serif;
     text-decoration: none; 
     font-size: 18px;
     display: flex; 
     align-items: center; 
-    margin-left: 50px; 
 }
 
 .contactLinks img {
-    margin: 0 40px 20px 40px; 
+    margin: 0 40px 55px 40px; 
     height: 100px; 
+}
+
+.linkedin img {
+    justify-content: center; 
+    align-items: center; 
+    text-align: center; 
+    height: 120px; 
+    margin: 0 0 40px 0  ; 
+}
+
+.linkedin a {
+    justify-content: center; 
+    align-items: center; 
 }
