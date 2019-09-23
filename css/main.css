@@ -93,6 +93,7 @@ a:hover {
 h1 {
     font-family: 'Vollkorn SC', serif;
     margin-bottom: 100px; 
+    text-align: center; 
 }
 
 h2 {
@@ -115,6 +116,15 @@ h2 {
 p {
     font-family: 'Roboto', sans-serif;
 } 
+
+.contactLinks a {
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none; 
+    font-size: 18px;
+    display: flex; 
+    align-items: center; 
+    margin-left: 50px; 
+}
 
 .contactLinks img {
     margin: 0 40px 20px 40px; 
